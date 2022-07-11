@@ -1,0 +1,170 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+     background: url(/image/main_bg.jpg) no-repeat center;
+     background-size: cover;
+     background-color: #E5E5E5;
+ }
+ 
+ a {
+    text-decoration: none; 
+ }
+ img {
+     display: flex;
+  }
+ 
+ .inner { 
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+ }
+ 
+ header {
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 9;
+    background-color: #F6F5F0;
+    border-bottom: 1px solid #c8c8c8;
+ }
+ header.logo{
+    height: 75px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+ }
+ 
+ header .inner {
+    height: 120px;
+ }
+ .sub-menu {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+ }
+ .sub-menu ul.menu {
+    font-family: Arial, sans-serif;
+    display: flex;
+    list-style: none;
+ }
+ .sub-menu ul.menu li {
+    position: relative;
+ }
+ 
+ .sub-menu ul.menu li a {
+    padding: 11px 16px;
+    display: block;
+    font-size: 13px;
+    color: #656565;
+ }
+ .sub-menu ul.menu li a:hover {
+    color: black;
+ }
+ .sub-menu .search {
+    position: relative;
+    height: 23px;
+    margin: auto;
+ }
+ .sub-menu .search input {
+    width: 190px;
+    height: inherit;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: #777;
+    font-size: 12px;
+    }
+ .sub-menu .search .material-icons {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    margin: 0 auto;
+ }
+ .main-menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+ }
+ .main-menu .item .item__name {
+    padding: 10px 20px 34px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+ }
+ .main-menu .item:hover .item__name {
+    background-color: #2C2A29;
+    color: #ECEBF2;
+    border-radius: 6px 6px 6px 6px;
+ }
+ .btn{
+    width: 130px;
+    padding: 10px;
+    border: 2px solid #333;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    display:block;
+    transition: .4s;
+ }
+ .btn:hover{
+    background-color: #333;
+    color: #FFF;
+ }
+ .visual {
+    margin-top: 120px;
+    background-image: url("../images/visual_bg.jpg");
+    background-position: center;
+ }
+ .visual .inner {
+    height: 646px;
+    position: relative;
+ }
+ .visual .title {
+    position: absolute;
+    top: 88px;
+    left: -10px;
+ }
+ .visual .title .btn {
+    position: absolute;
+    top: 259px;
+    left: 173px;
+    border-radius: 5px;
+ }
+ .visual .poster1.image {
+    position: absolute;
+    top: 10px;
+    right: -120px;
+    height: 600px;
+ 
+ }
+ .visual .poster2.image {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    height: 500px;
+ }
+ header .badges {
+    position: absolute;
+    top: 132px;
+    left: 12px;
+ }
+ header .badges .badge {
+     border-radius: 10px;
+     overflow: hidden;
+     margin-bottom: 12px;
+     box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+     cursor: pointer;
+ }
